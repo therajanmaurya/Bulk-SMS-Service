@@ -139,8 +139,6 @@ public class OpenPhoneContact extends Activity {
 		if (resultCode == RESULT_OK) {
 			Bundle basket = data.getExtras();
 			checkedlist = basket.getStringArrayList("checked_number");
-			Toast.makeText(getApplicationContext(), "xyz", Toast.LENGTH_SHORT)
-					.show();
 		} else {
 			Toast.makeText(getApplicationContext(),
 					"You did not selected any Contact", Toast.LENGTH_SHORT)

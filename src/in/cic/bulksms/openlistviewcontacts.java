@@ -41,9 +41,6 @@ public class openlistviewcontacts extends Activity {
 		
 		phonenumber = intent.getStringArrayListExtra("number_array");
 		numbername = intent.getStringArrayListExtra("name_array");
-		// context.getApplicationContext();
-//		Toast.makeText(getApplicationContext(), "phone"+phonenumber.size(), Toast.LENGTH_SHORT).show();
-//		Toast.makeText(getApplicationContext(), "number"+numbername.size(), Toast.LENGTH_SHORT).show();
 
 		listView = (ListView) findViewById(R.id.contactslistview);
 		x();
