@@ -67,7 +67,7 @@ public class TabLayout extends TabActivity {
 
 		case R.id.rate:
 			Intent rate = new Intent(android.content.Intent.ACTION_VIEW);
-            rate.setData(Uri.parse("https://play.google.com/store/apps/details?id=com.pawan.forcealarm"));
+            rate.setData(Uri.parse("market://details?id=com.pawan.forcealarm"));
                 startActivity(rate);
         		TabLayout.this.overridePendingTransition(android.R.anim.slide_in_left,android.R.anim.slide_out_right);
               return true;

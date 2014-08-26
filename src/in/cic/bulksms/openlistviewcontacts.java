@@ -30,14 +30,14 @@ public class openlistviewcontacts extends Activity {
 	ArrayList<String> checklist = new ArrayList<String>();
 	Button getPhoneContacts;
 	public final String shared = "sharedData";
-	List<chuchu> chu;
+	List<Model> chu;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.opencontactslistview);
 		Intent intent = getIntent();
-		chu = new ArrayList<chuchu>();
+		chu = new ArrayList<Model>();
 		
 		phonenumber = intent.getStringArrayListExtra("number_array");
 		numbername = intent.getStringArrayListExtra("name_array");
@@ -76,7 +76,7 @@ public class openlistviewcontacts extends Activity {
 
 	int x() {
 		for (int i = 0; i < phonenumber.size(); i++) {
-			chuchu chu1 = new chuchu();
+			Model chu1 = new Model();
 			chu1.setx(phonenumber.get(i));
 			chu1.setx1(numbername.get(i));
 			chu1.setSelected(false);

@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View v) {
 				String msg = etMsg.getText().toString();
-				etMsg.getText().clear();
+
 				if (msg.length() != 0 && categoryList != null) {
 
 					for (int a = 0; a < categoryList.size(); a++) {
@@ -74,8 +74,10 @@ public class MainActivity extends Activity {
 					}
 					Toast.makeText(
 							getApplicationContext(),
-							"Please Wait   " + 2 * categoryList.size() + "  "
-									+ "Seconds", Toast.LENGTH_SHORT).show();
+							"PLEASE WAIT  " + 2 * categoryList.size() + " "
+									+ "SECOND" + " To REUSE APP ",
+							Toast.LENGTH_SHORT).show();
+					etMsg.getText().clear();
 					categoryList = null;
 				} else {
 					Log.e("no message", "enter message");
@@ -132,7 +134,6 @@ public class MainActivity extends Activity {
 			if (resultCode == RESULT_OK) {
 				newFile = data
 						.getStringExtra(in.cic.bulksms.FileBrowserActivity.returnFileParameter);
-				
 
 			} else {
 				Toast.makeText(this, "Received NO result from file browser",
@@ -141,16 +142,19 @@ public class MainActivity extends Activity {
 		}
 
 		super.onActivityResult(requestCode, resultCode, data);
-		if (newFile == null) {
-			Toast.makeText(getApplicationContext(), "File is not Choosen",
-					Toast.LENGTH_SHORT).show();
+		if (newFile == null && newFile.length() == 0) {
+			// Toast.makeText(getApplicationContext(), "File is not Choosen",
+			// Toast.LENGTH_SHORT).show();
 		} else {
 
 			newString = newFile.substring(newFile.length() - 3);
 			if (newString.equals(csvlast)) {
 				try {
 					csvdata();
-					Toast.makeText(this, categoryList.size() +"  CONTACTS HAVE BEEN LOADED FROM CSV FILE",
+					Toast.makeText(
+							this,
+							categoryList.size()
+									+ "  CONTACTS HAVE BEEN LOADED FROM CSV FILE",
 							Toast.LENGTH_SHORT).show();
 				} catch (IOException e) {
 					// TODO Auto-generated catch block

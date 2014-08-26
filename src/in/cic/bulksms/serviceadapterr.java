@@ -15,16 +15,16 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 
 @SuppressLint("ViewTag")
-class serviceadapterr extends ArrayAdapter<chuchu> {
+class serviceadapterr extends ArrayAdapter<Model> {
 	ArrayList<String> result = new ArrayList<String>();
 	ArrayList<String> checkedno ;
 
 	Activity context;
 	ArrayList<String> imageId = new ArrayList<String>();
-	List<chuchu> chu;
+	List<Model> chu;
 	private static LayoutInflater inflater = null;
 
-	public serviceadapterr(Activity context, List<chuchu> chu) {
+	public serviceadapterr(Activity context, List<Model> chu) {
 		// TODO Auto-generated constructor stub
 		super(context , R.layout.contactslistitem, chu);
 		checkedno = new ArrayList<String>();
