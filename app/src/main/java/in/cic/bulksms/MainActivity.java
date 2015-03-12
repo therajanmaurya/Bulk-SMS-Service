@@ -1,18 +1,11 @@
 package in.cic.bulksms;
 
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
-
 import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.telephony.SmsManager;
-import android.text.InputFilter.LengthFilter;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
@@ -21,6 +14,13 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
+
 import au.com.bytecode.opencsv.CSVReader;
 
 public class MainActivity extends Activity {
@@ -136,35 +136,36 @@ public class MainActivity extends Activity {
 						.getStringExtra(in.cic.bulksms.FileBrowserActivity.returnFileParameter);
 
 			} else {
+                newFile = null;
 				Toast.makeText(this, "Received NO result from file browser",
 						Toast.LENGTH_SHORT).show();
 			}
 		}
 
 		super.onActivityResult(requestCode, resultCode, data);
-		if (newFile == null && newFile.length() == 0) {
-			// Toast.makeText(getApplicationContext(), "File is not Choosen",
-			// Toast.LENGTH_SHORT).show();
+		if (newFile != null && newFile.length() != 0) {
+
+            newString = newFile.substring(newFile.length() - 3);
+            if (newString.equals(csvlast)) {
+                try {
+                    csvdata();
+                    Toast.makeText(
+                            this,
+                            categoryList.size()
+                                    + "  CONTACTS HAVE BEEN LOADED FROM CSV FILE",
+                            Toast.LENGTH_SHORT).show();
+                } catch (IOException e) {
+                    // TODO Auto-generated catch block
+                    e.printStackTrace();
+                }
+            } else {
+                Toast.makeText(getApplicationContext(),
+                        "This Is Not CSV File Please Select CSV file",
+                        Toast.LENGTH_SHORT).show();
+            }
+
 		} else {
 
-			newString = newFile.substring(newFile.length() - 3);
-			if (newString.equals(csvlast)) {
-				try {
-					csvdata();
-					Toast.makeText(
-							this,
-							categoryList.size()
-									+ "  CONTACTS HAVE BEEN LOADED FROM CSV FILE",
-							Toast.LENGTH_SHORT).show();
-				} catch (IOException e) {
-					// TODO Auto-generated catch block
-					e.printStackTrace();
-				}
-			} else {
-				Toast.makeText(getApplicationContext(),
-						"This Is Not CSV File Please Select CSV file",
-						Toast.LENGTH_SHORT).show();
-			}
 		}
 	}
 

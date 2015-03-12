@@ -1,26 +1,33 @@
 package in.cic.bulksms;
 
-import java.io.File;
-import java.io.FilenameFilter;
-import java.util.ArrayList;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Collections;
-
-//Android imports 
 import android.app.Activity;
 import android.content.Intent;
 import android.content.res.Configuration;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Parcelable;
 import android.os.StatFs;
 import android.util.Log;
+import android.view.View;
 import android.view.View.OnClickListener;
+import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
-import android.view.*;
-import android.widget.*;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
+import android.widget.Button;
+import android.widget.LinearLayout;
+import android.widget.ListView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.io.File;
+import java.io.FilenameFilter;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+
+//Android imports
 
 public class FileBrowserActivity extends Activity {
 	// Intent Action Constants
@@ -435,13 +442,4 @@ public class FileBrowserActivity extends Activity {
 		finish();
 	}
 
-//	@Override
-//	 public boolean onKeyDown(int keyCode, KeyEvent event) {
-//	     if(keyCode==KeyEvent.KEYCODE_BACK)
-//	         //Toast.makeText(getApplicationContext(), "back press",      
-//	      //Toast.LENGTH_LONG).show();
-//	    Toast.makeText(getApplicationContext(), "Please Select A CSV file", Toast.LENGTH_LONG).show();
-//
-//	     return false;
-//	 }
-}// END public class FileBrowserActivity extends Activity {
+}
