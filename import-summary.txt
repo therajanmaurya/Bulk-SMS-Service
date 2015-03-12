@@ -1,0 +1,216 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/home/rajanmaurya/Android/Android Runing project/Bulk_SMS/Bulk-SMS-Service-final
+                                 -      -                                       
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/opencsv-2.3.jar
+* app/lint.xml
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/assets/
+* app/src/main/assets/Category.csv
+* app/src/main/assets/fonts/
+* app/src/main/assets/fonts/Roboto-BoldItalic.ttf
+* app/src/main/assets/fonts/Roboto-Italic.ttf
+* app/src/main/java/
+* app/src/main/java/in/
+* app/src/main/java/in/cic/
+* app/src/main/java/in/cic/bulksms/
+* app/src/main/java/in/cic/bulksms/AboutDialog.java
+* app/src/main/java/in/cic/bulksms/FileBrowserActivity.java
+* app/src/main/java/in/cic/bulksms/MainActivity.java
+* app/src/main/java/in/cic/bulksms/Model.java
+* app/src/main/java/in/cic/bulksms/OpenPhoneContact.java
+* app/src/main/java/in/cic/bulksms/TabLayout.java
+* app/src/main/java/in/cic/bulksms/chuchu.java
+* app/src/main/java/in/cic/bulksms/openlistviewcontacts.java
+* app/src/main/java/in/cic/bulksms/serviceadapterr.java
+* app/src/main/java/in/cic/bulksms/splash.java
+* app/src/main/res/
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/background.jpg
+* app/src/main/res/drawable-hdpi/bg_row.xml
+* app/src/main/res/drawable-hdpi/bulk.png
+* app/src/main/res/drawable-hdpi/bulk1.png
+* app/src/main/res/drawable-hdpi/button.xml
+* app/src/main/res/drawable-hdpi/cont.png
+* app/src/main/res/drawable-hdpi/csv.png
+* app/src/main/res/drawable-hdpi/ic_.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/logo.jpg
+* app/src/main/res/drawable-hdpi/s.xml
+* app/src/main/res/drawable-hdpi/splash1.jpg
+* app/src/main/res/drawable-hdpi/splash1.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/dir_up.png
+* app/src/main/res/drawable-ldpi/file_icon.png
+* app/src/main/res/drawable-ldpi/folder_icon.png
+* app/src/main/res/drawable-ldpi/folder_icon_light.png
+* app/src/main/res/drawable-ldpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/layout-sw240dp/
+* app/src/main/res/layout-sw240dp/contactslistitem.xml
+* app/src/main/res/layout-sw240dp/filelistitem.xml
+* app/src/main/res/layout-sw240dp/main.xml
+* app/src/main/res/layout-sw240dp/opencontactslistview.xml
+* app/src/main/res/layout-sw240dp/openphonecontact.xml
+* app/src/main/res/layout-sw240dp/sms.xml
+* app/src/main/res/layout-sw240dp/splash.xml
+* app/src/main/res/layout-sw320dp-land/
+* app/src/main/res/layout-sw320dp-land/contactslistitem.xml
+* app/src/main/res/layout-sw320dp-land/filelistitem.xml
+* app/src/main/res/layout-sw320dp-land/main.xml
+* app/src/main/res/layout-sw320dp-land/opencontactslistview.xml
+* app/src/main/res/layout-sw320dp-land/openphonecontact.xml
+* app/src/main/res/layout-sw320dp-land/sms.xml
+* app/src/main/res/layout-sw320dp-land/splash.xml
+* app/src/main/res/layout-sw320dp/
+* app/src/main/res/layout-sw320dp/contactslistitem.xml
+* app/src/main/res/layout-sw320dp/filelistitem.xml
+* app/src/main/res/layout-sw320dp/main.xml
+* app/src/main/res/layout-sw320dp/opencontactslistview.xml
+* app/src/main/res/layout-sw320dp/openphonecontact.xml
+* app/src/main/res/layout-sw320dp/sms.xml
+* app/src/main/res/layout-sw320dp/splash.xml
+* app/src/main/res/layout-sw480dp/
+* app/src/main/res/layout-sw480dp/contactslistitem.xml
+* app/src/main/res/layout-sw480dp/filelistitem.xml
+* app/src/main/res/layout-sw480dp/main.xml
+* app/src/main/res/layout-sw480dp/opencontactslistview.xml
+* app/src/main/res/layout-sw480dp/openphonecontact.xml
+* app/src/main/res/layout-sw480dp/sms.xml
+* app/src/main/res/layout-sw480dp/splash.xml
+* app/src/main/res/layout-sw600dp-land/
+* app/src/main/res/layout-sw600dp-land/contactslistitem.xml
+* app/src/main/res/layout-sw600dp-land/filelistitem.xml
+* app/src/main/res/layout-sw600dp-land/main.xml
+* app/src/main/res/layout-sw600dp-land/opencontactslistview.xml
+* app/src/main/res/layout-sw600dp-land/openphonecontact.xml
+* app/src/main/res/layout-sw600dp-land/sms.xml
+* app/src/main/res/layout-sw600dp-land/splash.xml
+* app/src/main/res/layout-sw600dp/
+* app/src/main/res/layout-sw600dp/contactslistitem.xml
+* app/src/main/res/layout-sw600dp/filelistitem.xml
+* app/src/main/res/layout-sw600dp/main.xml
+* app/src/main/res/layout-sw600dp/opencontactslistview.xml
+* app/src/main/res/layout-sw600dp/openphonecontact.xml
+* app/src/main/res/layout-sw600dp/sms.xml
+* app/src/main/res/layout-sw600dp/splash.xml
+* app/src/main/res/layout-sw700dp-land/
+* app/src/main/res/layout-sw700dp-land/contactslistitem.xml
+* app/src/main/res/layout-sw700dp-land/filelistitem.xml
+* app/src/main/res/layout-sw700dp-land/main.xml
+* app/src/main/res/layout-sw700dp-land/opencontactslistview.xml
+* app/src/main/res/layout-sw700dp-land/openphonecontact.xml
+* app/src/main/res/layout-sw700dp-land/sms.xml
+* app/src/main/res/layout-sw700dp-land/splash.xml
+* app/src/main/res/layout-sw700dp/
+* app/src/main/res/layout-sw700dp/contactslistitem.xml
+* app/src/main/res/layout-sw700dp/filelistitem.xml
+* app/src/main/res/layout-sw700dp/main.xml
+* app/src/main/res/layout-sw700dp/opencontactslistview.xml
+* app/src/main/res/layout-sw700dp/openphonecontact.xml
+* app/src/main/res/layout-sw700dp/sms.xml
+* app/src/main/res/layout-sw700dp/splash.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/contactslistitem.xml
+* app/src/main/res/layout/filelistitem.xml
+* app/src/main/res/layout/main.xml
+* app/src/main/res/layout/opencontactslistview.xml
+* app/src/main/res/layout/openphonecontact.xml
+* app/src/main/res/layout/sms.xml
+* app/src/main/res/layout/splash.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/activity_main.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values/
+* app/src/main/res/values/color.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/styles.xml
+* build.gradle
+* cd
+* cd ...pub
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/opencsv-2.3.jar => app/libs/opencsv-2.3.jar
+* lint.xml => app/lint.xml
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
