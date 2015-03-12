@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@color/darkgreen" android:state_pressed="true"/>
+ <!-- pressed -->
+    <item android:drawable="@color/purple" android:state_focused="true"/>
+ <!-- focused -->
+    <item android:drawable="@color/purple"/>
+ <!-- default -->
+
+</selector><!-- From: file:/home/rajanmaurya/Android/Android%20Runing%20project/Bulk_SMS/Bulk-SMS-Service-final/app/src/main/res/drawable-hdpi/button.xml -->

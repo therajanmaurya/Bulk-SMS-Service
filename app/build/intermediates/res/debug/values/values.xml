@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/rajanmaurya/Android/Android%20Runing%20project/Bulk_SMS/Bulk-SMS-Service-final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="sports_array">
+        <item>Shuttle Badminton</item>
+        <item>Tennis</item>
+        <item>Table Tennis</item>
+        <item>Basket Ball</item>
+        <item>Foot Ball</item>
+        <item>Volley Ball</item>
+        <item>Hockey</item>
+        <item>Swimming</item>
+    </string-array>
+    <!-- From: file:/home/rajanmaurya/Android/Android%20Runing%20project/Bulk_SMS/Bulk-SMS-Service-final/app/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="black">#000000</color>
+    <color name="blue">#ff2570ba</color>
+    <color name="darkgreen">#1b5e41</color>
+    <color name="gray">#808080</color>
+    <color name="grey">#f7f7f7</color>
+    <color name="holo">#222222</color>
+    <color name="olive">#808000</color>
+    <color name="purple">#800080</color>
+    <color name="seagreen">#2fc48e</color>
+    <color name="white">#ffffff</color>
+    <!-- From: file:/home/rajanmaurya/Android/Android%20Runing%20project/Bulk_SMS/Bulk-SMS-Service-final/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <drawable name="bg">#282828</drawable>
+    <string name="app_name">Bulk SMS Service  </string>
+    <string name="b1"> Send</string>
+    <string name="hello">Hello World, ListViewMultipleSelectionActivity!</string>
+    <string name="hello_world">Enter phone number</string>
+    <string name="menu_settings">Settings</string>
+    <string name="msg">Message</string>
+    <string name="pn">To</string>
+    <string name="result_activity">ResultActivity</string>
+    <string name="submit">Submit</string>
+    <!-- From: file:/home/rajanmaurya/Android/Android%20Runing%20project/Bulk_SMS/Bulk-SMS-Service-final/app/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

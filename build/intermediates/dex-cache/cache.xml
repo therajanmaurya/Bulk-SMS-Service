@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/rajanmaurya/Android/sdk/extras/android/m2repository/com/android/support/support-v4/19.1.0/support-v4-19.1.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="/home/rajanmaurya/Android/Android Runing project/Bulk_SMS/Bulk-SMS-Service-final/app/build/intermediates/pre-dexed/debug/support-v4-19.1.0-d7e74d219007f8ddf1932b57cbaaa2ddf05968e4.jar" />
+    </item>
+    <item
+        jar="/home/rajanmaurya/Android/Android Runing project/Bulk_SMS/Bulk-SMS-Service-final/app/libs/opencsv-2.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="c0ffd01065bc3fe571e1a4eb7014a03333f0663d">
+        <dex dex="/home/rajanmaurya/Android/Android Runing project/Bulk_SMS/Bulk-SMS-Service-final/app/build/intermediates/pre-dexed/debug/opencsv-2.3-8a5ae30b5bef630771c3194d7db2fe57518b58bd.jar" />
+    </item>
+
+</items>
