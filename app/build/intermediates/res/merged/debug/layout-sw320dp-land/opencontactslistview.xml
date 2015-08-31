@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/getphoneC"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Submit Contacts To Ready To Send" />
+
+    <ListView
+        android:id="@+id/contactslistview"
+        android:layout_width="match_parent"
+        android:layout_height="373dp"
+        android:layout_above="@+id/getphoneC"
+        
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+
+    </ListView>
+
+</RelativeLayout><!-- From: file:/Users/RajanMaurya/AndroidStudioProjects/Bulk-SMS-Service-final/app/src/main/res/layout-sw320dp-land/opencontactslistview.xml -->

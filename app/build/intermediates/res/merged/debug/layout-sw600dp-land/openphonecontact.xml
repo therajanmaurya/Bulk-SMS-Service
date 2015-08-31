@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/Sendphonecontacts"
+        android:layout_width="fill_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Send By Mobile Contact" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView1"
+        android:layout_below="@+id/imageView1"
+        android:text="Phone Contacts"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="31dp"
+        android:src="@drawable/cont" />
+
+    <EditText
+        android:id="@+id/EnterMsgcontact"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginRight="169dp"
+        android:layout_marginTop="51dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Enter Mesage To Send Unlimited Person"
+        android:inputType="textNoSuggestions"
+        android:textColorHint="#000000" >
+
+        <requestFocus />
+    </EditText>
+
+</RelativeLayout><!-- From: file:/Users/RajanMaurya/AndroidStudioProjects/Bulk-SMS-Service-final/app/src/main/res/layout-sw600dp-land/openphonecontact.xml -->

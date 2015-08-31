@@ -9,21 +9,21 @@ package in.cic.bulksms;
 
 public final class R {
     public static final class array {
-        public static final int sports_array=0x7f040000;
+        public static final int sports_array=0x7f050000;
     }
     public static final class attr {
     }
     public static final class color {
-        public static final int black=0x7f050000;
-        public static final int blue=0x7f050001;
-        public static final int darkgreen=0x7f050002;
-        public static final int gray=0x7f050003;
-        public static final int grey=0x7f050004;
-        public static final int holo=0x7f050005;
-        public static final int olive=0x7f050006;
-        public static final int purple=0x7f050007;
-        public static final int seagreen=0x7f050008;
-        public static final int white=0x7f050009;
+        public static final int black=0x7f060000;
+        public static final int blue=0x7f060001;
+        public static final int darkgreen=0x7f060002;
+        public static final int gray=0x7f060003;
+        public static final int grey=0x7f060004;
+        public static final int holo=0x7f060005;
+        public static final int olive=0x7f060006;
+        public static final int purple=0x7f060007;
+        public static final int seagreen=0x7f060008;
+        public static final int white=0x7f060009;
     }
     public static final class drawable {
         public static final int background=0x7f020000;
@@ -77,28 +77,28 @@ public final class R {
         public static final int activity_main=0x7f080000;
     }
     public static final class string {
-        public static final int app_name=0x7f060000;
-        public static final int b1=0x7f060001;
-        public static final int hello=0x7f060002;
-        public static final int hello_world=0x7f060003;
-        public static final int menu_settings=0x7f060004;
-        public static final int msg=0x7f060005;
-        public static final int pn=0x7f060006;
-        public static final int result_activity=0x7f060007;
-        public static final int submit=0x7f060008;
+        public static final int app_name=0x7f070000;
+        public static final int b1=0x7f070001;
+        public static final int hello=0x7f070002;
+        public static final int hello_world=0x7f070003;
+        public static final int menu_settings=0x7f070004;
+        public static final int msg=0x7f070005;
+        public static final int pn=0x7f070006;
+        public static final int result_activity=0x7f070007;
+        public static final int submit=0x7f070008;
     }
     public static final class style {
-        /** 
+        /**  API 11 theme customizations can go here. 
+ API 14 theme customizations can go here. 
+
             Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
- API 11 theme customizations can go here. 
- API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f070000;
+        public static final int AppBaseTheme=0x7f040000;
         /**  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f070001;
+        public static final int AppTheme=0x7f040001;
     }
 }

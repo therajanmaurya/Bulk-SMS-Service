@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background" >
+
+    <Button
+        android:id="@+id/sendb"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#000000"
+        android:text="Send"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView1"
+        android:layout_centerHorizontal="true"
+        android:text="CSV Contacts"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/smsf"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_above="@+id/sendb"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="15dp"
+        android:cursorVisible="true"
+        android:ems="10"
+        android:hint="Enter The Message To Send Unlimited Person"
+        android:textColorHint="#000000" >
+
+        <requestFocus />
+    </EditText>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:background="@drawable/csv" />
+
+</RelativeLayout><!-- From: file:/Users/RajanMaurya/AndroidStudioProjects/Bulk-SMS-Service-final/app/src/main/res/layout-sw240dp/sms.xml -->
